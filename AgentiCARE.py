@@ -51,20 +51,20 @@ DEFAULT_RESULTS_BASE = Path("/scratch/baj321/FMAI/results/Corrected")
 DATASET_PATHS = {
     "Mortality": {
         "Train": Path(
-            "/scratch/baj321/MedAgent/datasets/multimodal_dataset_splits/train.jsonl"
+            "datasets/multimodal_dataset_splits/train.jsonl"
         ),
         "Test": Path(
-            "/scratch/baj321/MedAgent/datasets/multimodal_dataset_splits/test.jsonl"
+            "datasets/multimodal_dataset_splits/test.jsonl"
         ),
         "label_key": "in_hospital_mortality_48hr",
         "prob_key": "mortality_probability",
     },
     "LOS": {
         "Train": Path(
-            "/scratch/baj321/MedAgent/datasets/corrected_los_labels/train.jsonl"
+            "datasets/corrected_los_labels/train.jsonl"
         ),
         "Test": Path(
-            "/scratch/baj321/MedAgent/datasets/corrected_los_labels/test.jsonl"
+            "datasets/corrected_los_labels/test.jsonl"
         ),
         "label_key": "los_7",
         "prob_key": "los_probability",
