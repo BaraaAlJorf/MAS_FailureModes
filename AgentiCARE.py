@@ -46,7 +46,7 @@ warnings.filterwarnings("ignore")
 # 1. Constants & Configurations
 # =============================================================================
 
-DEFAULT_RESULTS_BASE = Path("/scratch/baj321/FMAI/results/Corrected")
+DEFAULT_RESULTS_BASE = Path("results/")
 
 DATASET_PATHS = {
     "Mortality": {
